@@ -1,0 +1,72 @@
+
+/* 예약 관리 테이블 */
+.table_wrap .answer_table{
+	font-size: 14px;
+	width: 60%;
+	height: auto;
+	text-align: center;
+	margin: auto;
+}
+
+.table_wrap .answer_table td{
+	border: 1px solid black;
+}
+
+.table_wrap{
+	max-width: 90%;
+	height: 200px;
+	margin-top: 100px;
+	margin-bottom: -100px;
+	min-width: 700px;
+}
+
+body > div.main > div > table > thead{
+	font-size: 16px;
+	font-weight: bold;
+	border: 2px solid black;
+}
+/* 상품명 클릭 이벤트 처리 */
+body > div.main > div > table > tbody > tr > td > a{
+	color: #333333;
+	text-decoration: none;
+}
+
+body > div.main > div > table > tbody > tr > td > a:hover{
+	color: black;
+	font-weight: bold;
+}
+
+
+/* 조회 버튼 */
+#answer{
+	margin-top: 10px;
+	width: 15%;
+}
+
+/*  관리자 선택 select  */
+body > div.main > div:nth-child(2) > table > tbody > tr:nth-child(2) > td:nth-child(2) > select{
+	width: 40%;
+}
+
+/* 성명 input 창  */
+body > div.main > div:nth-child(2) > table > tbody > tr:nth-child(3) > td:nth-child(2) > input{
+	width: 40%;
+	height: 26px;
+}
+body > div.main > div:nth-child(2) > table > tbody > tr:nth-child(3) > td:nth-child(2){
+	text-align: left;
+}
+
+/* 페이징 처리 */
+#pagi_wrap{
+	width: 90%;
+	margin: auto;
+}
+
+#pagination{
+	width: 50%;
+	height: 30px;
+	margin-left: 60%;
+}
+
+

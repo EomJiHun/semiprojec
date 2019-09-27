@@ -1,0 +1,48 @@
+.table_wrap .answer_table{
+	font-size: 14px;
+	width: 60%;
+	height: auto;
+	text-align: center;
+	margin: auto;
+}
+
+.table_wrap .answer_table td{
+	border: 1px solid black;
+}
+
+
+.table_wrap{
+	max-width: 90%;
+	height: 200px;
+	margin-top: 100px;
+	margin-bottom: -100px;
+	min-width: 700px;
+}
+/* 조회 버튼 */
+#answer{
+	margin-top: 10px;
+	width: 15%;
+}
+
+/*  관리자 선택 select  */
+body > div.main > div:nth-child(2) > table > tbody > tr:nth-child(2) > td:nth-child(2) > select{
+	width: 40%;
+}
+/* 내용 table 제목 */
+body > div.main > div:nth-child(3) > table > thead{
+	font-size: 16px;
+	font-weight: bold;
+	border: 2px solid black;
+}
+
+/* 페이징 처리 */
+#pagi_wrap{
+	width: 90%;
+	margin: auto;
+}
+
+#pagination{
+	width: 50%;
+	height: 30px;
+	margin-left: 55%;
+}

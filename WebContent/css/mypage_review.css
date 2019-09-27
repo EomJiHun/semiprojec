@@ -1,0 +1,315 @@
+.my_container, .w3-panel {
+	padding: 0.01em
+}
+
+.my_container {
+	max-width: 1400px;
+	margin-top: 100px;
+	margin-left: 580px;
+}
+
+/*프로필 이미지 들어가는 부분*/
+.w3-circle {
+	height: 106px;
+	width: 106px;
+	margin-top: 20px;
+}
+
+/*여행 후기폼 */
+.review_margin {
+	margin: 0 17px 30px 17px;
+}
+
+/*여행 후기 게시판*/
+.review_form {
+	margin: 16px 16px 16px 16px;
+	width:100%;
+}
+.review_form >span{
+	margin-right: 9px;
+}
+
+#re_photo {
+	width: 20%;
+	margin-right: 13px;
+}
+#re_text {
+	text-align: center;
+	margin-top: 16px;
+	margin-right:16px;
+	padding:6px 0 6px 0;
+	background-color: #ADD8E6;
+}
+/*예약내역 상세내용*/
+#re_textlist {
+	
+	margin: 16px 16px 16px 16px;
+	padding:10px 10px 10px 15px;
+	background-color: #ADD8E6;
+	line-height: 30px;
+	font-size: 11.8px;
+}
+#re_textlist >i {
+	
+	float :right;
+	margin-right: 16px;
+	color: #228B22;/*라임 그린*/
+	font-size: 12px;
+	
+}
+
+/*마이페이지*/
+
+.gmain {
+   width: 860px;
+   margin: 0px 16px 16px 16px;
+   
+  
+}
+
+.g_left {
+   width: 800px;
+ 
+}
+
+img {
+   margin-right: 20px;
+}
+
+#visa {
+   position: relative;
+   top: -12px;
+   width: 48px;
+   height: 25px;
+}
+
+#paypal1 {
+   position: relative;
+   top: -17px;
+   height: 85px;
+   width: 70px;
+}
+
+#master {
+   position: relative;
+   top: -4px;
+   width: 48px;
+   height: 40px;
+}
+
+#express {
+   position: relative;
+   top: 3px;
+   width: 53px;
+   height: 60px;
+}
+
+button, input[type="text"], input[type="email"], input[type="password"],
+   select {
+   height: 40px;
+}
+
+.m_grid .m_justify_list {
+   display: inline-block;
+}
+
+.g_ib {
+   display: inline-block;
+}
+
+.g_row1 {
+   width: 100%;
+}
+
+.part {
+   border: 1px solid #d1d1d1;
+}
+
+.pay>.g_left .part>div {
+   padding: 40px 32px 10px;
+   background: #fff;
+}
+
+.pay>.g_left .part>header {
+   padding-left: 32px;
+   background: #ADD8E6 ;
+   line-height: 100%;
+   color: white;
+   margin-bottom:10px;
+   padding-top:5px;
+}
+.pay>.g_left .part>header .t20 {
+   padding-bottom: 15px;
+}
+
+.pay>.g_left .part .inputs {
+   margin-bottom: 32px;
+   margin-right: 16px;
+}
+
+.part /* .pay>.g_left .part>div:last-child */ {
+   margin-bottom: 20px;
+}
+
+.pay>.g_right section .total_box {
+   border: 1px solid #d1d1d1;
+   margin-bottom: 10px;
+   background-color: white;
+   padding: 12px 16px;
+}
+
+.pay>.g_right section header h2 {
+   margin-bottom: 8px;
+   font-size: 16px;
+   border-bottom: 1px solid black;
+   font-weight: 650;
+   line-height: 45px;
+}
+
+.t_left {
+   display: inline-block;
+   width: 70px;
+}
+
+.pay>.g_right .info>div {
+   display: inline-block;
+   width: 200px;
+   text-align: right;
+}
+
+.info {
+   margin-bottom: 15px;
+}
+
+#pay_left>section>div>div {
+   margin-bottom: 35px;
+   line-height: 35px;
+}
+
+#pay_left>section>div>div>span {
+   font-size: 20px;
+}
+
+.card {
+   float: right;
+}
+
+#btn {
+   padding: 10px;
+   width: 200px;
+   text-align: center;
+   border-radius: 5px;
+   background-color: #ADD8E6;
+   border: none;
+   color: white;
+   font-size: 20px;
+   color: white;
+}
+
+#totalprice {
+   margin-bottom: 0px;
+   line-height: 20px;
+}
+
+#totalprice div {
+   display: inline-block;
+}
+
+header {
+   margin-bottom: 15px;
+}
+
+select, input {
+   padding-left: 10px;
+}
+
+#country {
+   width: 395px;
+}
+
+#phone1 {
+   width: 280px;
+}
+
+.name {
+   width: 220px;
+}
+
+#gender {
+   width: 140px;
+}
+
+input[type="email"] {
+   width: 280px;
+}
+
+/*비밀번호 변경*/
+
+.pass_pay {
+   border: 1px solid #d1d1d1;
+   width: 800px;
+   height:200px;
+   margin: 0px 16px 16px 16px;
+  
+}
+
+section.pass_pay .pass .pas_name{
+	background-color: #ADD8E6 ;
+	width: 100%;
+	padding-top:20px;
+	margin: 0 auto;
+	line-height: 10px;
+
+}
+section.pass_pay .pass .pas_name .he{
+	padding-bottom: 10px;
+
+}
+
+section.pass_pay .pass .pas_name h4{
+	margin-left:15px;
+	font-size:25px;
+	color:white;
+	font-weight:bold;
+
+}
+section.pass_pay .pass .pas_name p{
+	margin-left:15px;
+
+}
+
+section.pass_pay header .c_2{
+	padding-left: 40px;
+	
+}
+section.pass_pay header .c_2 .now_pass{
+	width:300px;
+	margin-top: 15px;
+	
+}
+
+section.pass_pay header .c_3{
+	padding-left: 40px;
+	
+}
+section.pass_pay header .c_3 .re_pass{
+	width:300px;
+	margin-top: 15px;
+	
+}
+section.pass_pay header .c_3 .rere_pass{
+	width:300px;
+	margin-top: 30px;
+	
+}
+
+section.pass_pay .btn{
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+
+
+body > div.my_container > div > div.w3-col.m7 > div:nth-child(2){
+	display: none;
+}

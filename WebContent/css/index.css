@@ -1,0 +1,359 @@
+
+/* 다른 device에서의 스크롤 방지 */
+html,body {
+	overflow-x: hidden;
+}
+body{
+	background-color: #f5f5f5;
+}
+
+/* 변화하는 이미지 */
+.bg div img{
+	width: 100vw;
+	height: 600px;
+	margin-left: calc(-50vw + 50%);
+}
+/* 이미지를 감싸는 div 설정 */
+.bg{
+	width: 100%;
+	height: 600px;
+	margin: auto;
+	border: 1px solid #333333;
+}
+
+
+/* 변화하는 이미지 전체 설정 */
+.bg div{
+	position: absolute;
+}
+.bg div.current{
+	z-index:2;
+}
+.bg div.previous{
+	z-index:1;
+}
+
+/* 변화하는 이미지를 감싸는 색상 */
+#content_bg{
+	position: relative;
+	width: 60%;
+	height: 200px;
+	opacity: 0.5;
+	z-index: 3;
+	margin: auto;
+}
+#content_bg img{
+	width: 100%;
+	height: 150px;
+}
+
+/* 사진위에 글씨 */
+#content_wrap{
+	width: 50%;
+	height: 150px;
+	margin: auto;
+}
+#content_wrap .bg_content{
+	position: relative;
+	text-align: center;
+	z-index: 4;
+	color: #fff;
+}
+
+#content_bg_form{
+	width: 100%;
+	height: 230px;
+}
+
+/* 글씨와 input 묶음 */
+.bg_content_wrap{
+	width: 100%;
+	position: absolute;
+	margin: -400px auto 100px auto;
+}
+
+#input_group{
+	position: relative;
+	width: 55%;
+	z-index: 4;
+	margin: -150px auto;
+}
+
+/*  상단 사진위에 글씨창과 버튼  */
+.bg_content_wrap form input{
+	height: 50px;
+	width: 80%;
+	float: left;
+	margin-left: 5%;
+}
+
+.bg_content_wrap form button{
+	height: 50px;
+	width: 50px;
+	background-color: orange;
+}
+
+/* 대륙 리스트 (button 과 dropdown)*/ 
+body > div.continent_wrap > div > button{
+	width: 100%;
+	height: 100%;
+	font-size: 22px;
+	font-weigth: bold;
+	overflow: hidden;
+}
+
+.continent_wrap{
+	width: 100vw;
+	heigth: 100px;
+}
+
+.dropdown {
+  position: relative;
+  width: 16.6%;
+  height: 90px;
+  float: left;
+}
+body > div.continent_wrap > div:nth-child(1){
+	margin-left: 3px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: gray;
+  text-decoration: none;
+  width: 20%;
+  height: 15px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.dropdown-content a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+/* 대륙 드랍 다운 list */
+.continent_wrap{
+	position: absolute;
+}
+
+body > div.continent_wrap > div > div > table > tbody > tr > .nation{
+	padding: 30px;
+	width: 15%;
+	font-weight: bold;
+}
+
+body > div.continent_wrap > div > div > table > tbody > tr > .city{
+	padding: 30px;
+	width: 85%;
+}
+body > div.continent_wrap > div > div > table > tbody > tr{
+	width: 500px;
+}
+
+body > div.continent_wrap > div > div > .continent{
+	width: 800px;
+}
+
+/* 인기 여행지 제목 */
+.favorite .favorite_des .favorite_header{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.favorite .favorite_des .favorite_header h3{
+	color: #888888;
+}
+
+
+/* 인기 여행지 사진 리스트  */
+#flist_wrap > .favorite_list{
+	width: 28%;
+	height: 220px;
+	background-color: black;
+	float: left;
+	margin: auto 2% 2% 3%;
+	
+}
+#flist_wrap > .favorite_list:hover{
+	box-shadow: 5px 5px 5px #aaaaaa;
+}
+.favorite{
+	width: 100vw;
+	height: 800px;
+	margin-top: 100px;
+	
+}
+.favorite .favorite_des{
+	width: 100%;
+	position: absolute;
+	margin: auto;
+}
+
+#flist_wrap{
+	width: 90%;
+	height: 600px;
+	margin: auto;
+}
+#flist_wrap > .favorite_list > span{
+	width: 90%;
+	height: 50px;
+	display: block;
+	text-align: center;
+	margin: 70px auto;
+	color: #fff;
+	font-size: 40px;
+}
+#flist_wrap div{
+	margin: auto;
+}
+#osaka{
+	background-image: url('/semiproject/image/osaka.jpg');
+	background-size: cover;
+}
+#dubai{
+	background-image: url('/semiproject/image/dubai.jpg');
+	background-size: cover;
+}
+#sing{
+	background-image: url('/semiproject/image/sing.jpg');
+	background-size: cover;
+}
+#paris{
+	background-image: url('/semiproject/image/paris.JPG');
+	background-size: cover;
+}
+#duba2i{
+	background-image: url('/semiproject/image/los.JPG');
+	background-size: cover;
+}
+#sing2{
+	background-image: url('/semiproject/image/sing2.JPG');
+	background-size: cover;
+}
+
+
+/* 상품 목록 슬라이드 */
+
+#myCarousel > .carousel-inner{
+	width: 100%;
+	height: 300px;
+}
+
+#myCarousel > .item{
+	width: 100%;
+	height: 300px;
+}
+
+
+#myCarousel > .list_wrap{
+	width: 80%;
+	heigth: 220px;
+	margin: auto;
+}
+
+#myCarousel > div > div.item.active > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	background-image: url('/semiproject/image/osaka.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel > div > div.item.active > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel > div > div.item.active > div > .pro_img span{
+	color: white;
+}
+#myCarousel > div > div.item.active > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel > div > div.item.active > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel > div > div.item.active{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+}
+
+
+/*  */
+#myCarousel > div > div.item > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	/* background-image: url('/semiproject/image/osaka.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%; */
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel > div > div.item > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel > div > div.item > div > .pro_img span{
+	color: white;
+}
+#myCarousel > div > div.item > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel > div > div.item > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel > div > div.item{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+}
+
+/* 도시 a 태그 변경 */
+#flist_wrap div a{
+	text-decoration: none;
+}
+#flist_wrap div a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+

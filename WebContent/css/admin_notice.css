@@ -1,0 +1,23 @@
+
+
+#frm > table{
+	height: 400px;
+	margin: 100px auto;
+	width: 1100px;
+	min-width: 650px;
+}
+
+#content_wrap{
+	width: 85%;
+	margin: auto;
+	height: auto;
+	min-width: 900px;
+}
+#frm{
+	width: 40%;
+	margin: auto;
+	height: auto;
+}
+#save{
+	margin-right: 15px;
+}

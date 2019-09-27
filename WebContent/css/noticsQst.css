@@ -1,0 +1,52 @@
+
+h4 {
+	position:relative;
+	left: 10px;
+}
+div[class=con] {
+	border: 1px solid black;
+
+	
+}
+
+#qs > p:nth-child(3){
+	margin-left: 250px;
+	width: 650px;
+}
+#qs > p:nth-child(7){
+	margin-left: 250px;
+	width: 650px;
+}
+#qs > p:nth-child(3) > span{
+	margin-left: 250px; width: 650 !important;
+}
+
+#qs > p:nth-child(4) > span{
+	margin-left: 250px; width: 650px !important;
+}
+
+k,nm #menu li{
+	width: 100%;
+	margin-right: 50px;
+	
+	
+}
+#qst_list {
+	margin:0 auto;
+
+	width:50%;
+	height:50%;
+}
+#qst_list #menu  {
+	margin:0 auto;
+	list-style-type: none;
+}
+#qst_list #menu li {
+	list-style-type: none;
+}
+
+#menu li ul li{
+	position:relative;
+	right: 430px;
+	
+}

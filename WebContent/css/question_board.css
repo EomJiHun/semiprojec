@@ -1,0 +1,50 @@
+
+/*질문과 계시판 외부 폼*/
+table {
+	
+	border: 1px solid black;
+	box-sizing: border-box;
+	
+}
+
+table td {
+	width:100px;
+	margin: 0 auto;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+table th {
+	
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+.wirte {
+	float: right;
+	position:relative;
+	right: 20px;
+
+}
+.censle {
+	float: right;
+	position:relative;
+	right: 20px;
+
+}
+
+form table input[type=checkbox]{
+	position:relative;
+	right: 5px;
+	top: 5px;
+}
+
+/* 페이징 처리 */
+#pagi_wrap{
+	width: 90%;
+	margin: auto;
+}
+
+#pagination{
+	width: 50%;
+	height: 30px;
+	margin: auto;
+}

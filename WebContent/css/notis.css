@@ -1,0 +1,55 @@
+.con{
+	border:1px solid black;
+	float:left;
+	
+}
+
+
+#notics_body{
+	position:relative;
+	height: 1000px;
+	top:150px;
+	left: 15%;	
+}
+
+
+
+
+
+/*옆엪있는 버튼 종류*/
+
+div[class=col-sm-2]{
+	margin:0 auto;
+	text-align:center;
+	height: 400px;
+}
+div[class=col-sm-2] li{
+	list-style-type: none;
+}
+div[class=col-sm-2] li ul li{
+	margin-right:50px;
+	list-style-type: none;
+}
+div[class=col-sm-2] .btn{
+	margin-right:10px;
+}
+
+
+
+ .hee {
+    border: 0;
+    height: 1px;
+    background: #0B0B3B;
+  }
+  
+  /*내용*/
+div[class=col-sm-6]{
+	margin:0 auto;
+	text-align:center;
+	height: 400px;
+}
+
+#fotter{
+	position:relative;
+	top:400px;
+}

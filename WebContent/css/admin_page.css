@@ -1,0 +1,203 @@
+body{
+	font-family: "Lato", sans-serif;
+	background-color: #f5f5f5;
+}
+/* nav_bar 밑으로 나열하기 위한 공백 */
+#blank_top{
+	width: 100%;
+	height: 50px;
+}
+
+/* 왼쪽 사이드바 */
+.list-group{
+	width: 15%;
+	margin: 150px 0 0 80px;
+	float: left;
+	min-width: 200px;
+}
+
+/* 사이드바 오른쪽 내용 */
+/* 다른 device에서의 스크롤 방지 */
+html,body {
+	overflow-x: hidden;
+}
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-right: 50px;
+  height: 800px;
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* panel */
+.panel{
+	position: relative;
+	width: 20%;
+	height: 150px;
+	float: left;
+	margin: auto;
+	overflow: hidden;
+	margin-left: 5px;
+}
+
+#panel_wrap .panel .panel-heading{
+	height: 70px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+#panel_wrap .panel .panel-heading .panel-title{
+	line-height: 57px;
+	font-size: 25px;
+	font-weight: bold;
+}
+#panel_wrap{
+	margin: 50px auto;
+	max-width: 90%;
+	height: 400px;
+	min-width: 1050px;
+}
+#panel_wrap > div.panel > div.panel-body > div.panel-con{
+	float: left;
+	width: 70%;
+}
+
+#panel_wrap .panel .panel-body{
+	margin-top: 15px;
+}
+
+
+/* 그래프 부분 */
+#chart_wrap{
+	width: 90%;
+	height: 300px;
+	margin: -140px 100px 100px 120px;
+	min-width: 1050px;
+}
+#chart_div{
+	position: relative;
+	width: 60%;
+	height: 100%;
+	margin: auto;
+	
+}
+
+/* 관리자 페이지 탭*/
+ul.accordion {
+	  list-style-type: none;
+	  position: relative;
+	  top: 0;
+	  font-family: "roboto", sans-serif;
+	  font-size: 16px;
+	  font-style: italic;
+	  line-height: 1.5em;
+	  margin-left: 10%;
+	}
+	 
+	ul.accordion li {
+	  float: left;
+	  width: 115px;
+	  height: 480px;
+	  display: block;
+	  border-right: 2px solid #fff;
+	  border-bottom: 2px solid #fff;
+	  background: #fff;
+	  background-repeat: no-repeat;
+	  background-position: center center;
+	  position: relative;
+	  overflow: hidden;
+	  cursor: pointer;
+	  -webkit-box-shadow: 1px 3px 5px #555;
+	  -moz-box-shadow: 1px 3px 5px #555;
+	  box-shadow: 1px 3px 5px #555;
+	}
+ul.accordion li.bg1 { background-image: url("/semiproject/image/Orion_identity.png"); }
+ul.accordion li.bg2 { background-image: url("/semiproject/image/Orion_people.png"); }
+ul.accordion li.bg3 { background-image: url("/semiproject/image/Orion_new-archive.png"); }
+ul.accordion li.bg4 { background-image: url("/semiproject/image/Orion_.png"); }	
+ul.accordion li.bg5 { background-image: url("/semiproject/image/Orion_add.png"); }	
+ul.accordion li.bg6 { background-image: url("/semiproject/image/Orion_profile-settings.png"); }	
+
+
+ul.accordion li.bleft { border-left: 2px solid #fff; }	 
+
+ul.accordion li .heading {
+  background: #fff;
+  padding: 10px;
+  margin-top: 60px;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #444;
+  text-align: center;
+  text-shadow: -1px -1px 1px #ccc;
+}
+
+ul.accordion li .description {
+  position: absolute;
+  width: 480px;
+  height: 175px;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+
+ul.accordion li .description h2 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 45px;
+  color: #444;
+  text-align: left;
+  margin: 0 0 15px 20px;
+  text-shadow: -1px -1px 1px #ccc;
+}
+ 
+ul.accordion li .description p {
+  line-height: 14px;
+  margin: 10px 22px;
+  font-family: "roboto", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.6em;
+}
+
+ul.accordion li .description a {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 11px;
+  text-decoration: none;
+  color: #888;
+}
+ 
+ul.accordion li .description a:hover {
+  color: #333;
+  text-decoration: underline;
+}	 
+
+ul.accordion li .bgDescription {
+  background: linear-gradient(0deg, #fff 40%, rgba(255,255,255,0));
+  height: 340px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  display: none;
+}

@@ -1,0 +1,48 @@
+
+/* 상품 관리 테이블 */
+.table_wrap .answer_table{
+	font-size: 14px;
+	width: 60%;
+	height: auto;
+	text-align: center;
+	margin: auto;
+}
+
+.table_wrap .answer_table td{
+	border: 1px solid black;
+}
+
+.table_wrap{
+	max-width: 90%;
+	height: 200px;
+	margin-top: 100px;
+	margin-bottom: -100px;
+	min-width: 700px;
+}
+
+body > div.main > div > table > thead > tr:nth-child(2){
+	font-size: 16px;
+	font-weight: bold;
+	border: 2px solid black;
+}
+
+/* 상품명 a태그 속성 */
+body > div.main > div:nth-child(4) > table > tbody > tr  td:nth-child(4)  a{
+	color: #333333;
+}
+body > div.main > div:nth-child(4) > table > tbody > tr > td:nth-child(4) > a:hover{
+	color: black;
+}
+
+
+/* 페이징 처리 */
+#pagi_wrap{
+	width: 90%;
+	margin: auto;
+}
+
+#pagination{
+	width: 50%;
+	height: 30px;
+	margin-left: 58%;
+}

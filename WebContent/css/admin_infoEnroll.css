@@ -1,0 +1,41 @@
+.table_wrap .answer_table{
+	font-size: 14px;
+	width: 40%;
+	height: auto;
+	text-align: center;
+	margin: 150px auto;
+}
+
+.table_wrap .answer_table td{
+	border: 1px solid black;
+}
+
+
+.table_wrap{
+	max-width: 90%;
+	height: 200px;
+	margin-top: 100px;
+	margin-bottom: -100px;
+	min-width: 700px;
+}
+/* 조회 버튼 */
+#generate{
+	margin-top: 10px;
+	width: 15%;
+}
+#frm > table > tbody > tr:nth-child(5) > td{
+	border: 0;
+}
+
+#id{
+	width: 100%;
+}
+#pwd{
+	width: 100%;
+}
+#name{
+	width:100%;
+}
+#pwdcon{
+	width:100%;
+}

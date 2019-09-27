@@ -1,0 +1,106 @@
+
+/* 전체 공통 nav 속성  */
+#scroll_after{
+	display: none;
+	background-color: #fff;
+}
+
+/* 메뉴 글씨 색상 변경  */
+#scroll_after .container .collapse .nav li .nav_link{
+	color: black;
+}
+#scroll_before > div > div.navbar-header > a > p{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    display: inline-block;
+}
+#scroll_before > div > div.navbar-header > a > img{
+	display: inline-block;
+	margin-top: -15px;
+}
+/*스크롤 내렸을때 바뀜*/
+#scroll_after > div > div.navbar-header > a > p{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    display: inline-block;
+}
+#scroll_after > div > div.navbar-header > a > img{
+	display: inline-block;
+	margin-top: -15px;
+}
+
+/* 전체적인 메뉴바 성정  */
+.navbar {
+	background-color: transparent;
+	border: 0px;
+}
+
+.navbar .container .collapse .nav .nav_link {
+	color: #fff;
+}
+
+.navbar .container .navbar-header .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+/* 드랍다운 메뉴 */
+/* The container <div> - needed to position the dropdown content */
+#myNavbar > ul > li.dropdowns {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#myNavbar > ul > li.dropdowns .dropdown-contents {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+#myNavbar > ul > li.dropdowns .dropdown-contents a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+#myNavbar > ul > li.dropdowns .dropdown-contents a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+#myNavbar > ul > li.dropdowns:hover .dropdown-contents {display: block;}
+
+
+
+
+
+#myNavbar_after > ul > li.dropdowns {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#myNavbar_after > ul > li.dropdowns .dropdown-contents {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+#myNavbar_after > ul > li.dropdowns .dropdown-contents a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+#myNavbar_after > ul > li.dropdowns .dropdown-contents a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+#myNavbar_after > ul > li.dropdowns:hover .dropdown-contents {display: block;}

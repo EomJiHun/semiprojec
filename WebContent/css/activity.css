@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+body, html {
+	height: 100%;
+	font-family: "Inconsolata", sans-serif;
+}
+
+.mySlides {
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+}
+.color-grey{
+	color:gray;
+}
+ .activity-title{
+     margin: 30px;
+     padding: 10px;  
+         
+        
+   }
+    #act-title {
+    
+    font-weight: bold;
+    
+    }
+.menu {
+	display: none;
+}
+/*댓글 화살표 모양*/
+.css-arrow {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 8px;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left-color: #000;
+}
+
+.css-arrow:before {
+    left: -30px;
+    margin-top: -10px;
+    border: 14px solid transparent;
+    border-right-color: #000;
+}
+.css-arrow:after {
+    left: -20px;
+    margin-top: -14px;
+    border:14px solid transparent;
+    border-left-color: #eee;
+}
+
+/*패키지 옵션예약*/
+.where {
+	padding-bottom: 32px;
+}
+
+.button2 {
+	background-color: white;
+	color: black;
+	border: 2px solid #008CBA;
+}
+
+.button2:hover {
+	background-color: #008CBA;
+	color: white;
+}
+
+/*빠른 예약 리모컨 */
+.fast-remote {
+	width: 350px;
+	height: 200px;
+	border-style: outset;
+	padding: 15px;
+	position: fixed;
+	right: 170px;
+	bottom: 50px;
+	
+}
+
+.remote-title {
+	font-size: 15px;
+	padding: 25px;
+	color: dimgrey;
+}
+
+.present-price {
+	color: #333333;
+	padding-left: 10%;
+	font-size: 30px;
+}
+
+.past-price {
+	color: darkgray;
+}
+
+.button1 {
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.button4 {
+	border-radius: 12px;
+	width: 300px;
+}

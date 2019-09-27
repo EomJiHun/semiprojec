@@ -1,0 +1,87 @@
+
+#body {
+	position: relative;
+	top: 80px;
+}
+/*장바구니*/
+h3{
+	position:relative;
+	left: 290px;
+}
+
+
+input[type=checkbox]{
+
+	width: 20px;
+	height: 20px;
+	
+}
+
+
+/* 장바구니 품목부분 */
+.t1 {
+	margin:auto;
+	width: 70%;
+	height: 60px;
+	background-color:#D8D8D8;
+	text-align: center; 
+	box-sizing: border-box;
+}
+.t1 tr td {
+	box-sizing: border-box;
+}
+.t1 tr td.fo_6 {
+	text-align: right;
+	padding-right: 120px;
+}
+
+
+.t2 {
+	margin:auto;
+	width: 70%;
+	height: 170px;
+	background-color:#D8D8D8; 
+	text-align: center;
+
+}
+ 
+.t2 tr#tr_2 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	
+}
+.t2 tr#tr_1 .bo_6 {
+	
+	padding-right: 160px;
+}
+ 
+.t2 tr#tr_2 #modified_in {
+	
+	padding-left: 20px;
+} 
+.t2 tr#tr_2 .pp {
+	
+	padding-left: 70px;
+} 
+
+
+
+.t4{
+	margin: auto;
+	width: 70%;
+	height: 50px;
+	background-color:#D8D8D8;
+	text-align: center; 
+} 
+.t4 tr td{
+	box-sizing: border-box;
+} 
+
+
+/*푸터 부분*/
+#footer{
+	position: relative;
+	top: 280px;
+	
+}
+

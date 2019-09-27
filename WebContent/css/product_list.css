@@ -1,0 +1,607 @@
+
+* {
+	
+	box-sizing: border-box;
+}
+
+/*도시 메뉴 이미지입니다.*/
+.jumbotron{
+	
+	width:100%;
+	height:400px;
+	background-image:url('/semiproject/image/singapor/singapore.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+
+#d{
+
+	margin:0;
+	padding:0;
+}
+
+
+/*메뉴바입니다.*/
+#btn {
+	position:relative;
+	bottom:50px;
+	left: 30%;
+	
+}
+#btn div a button {
+	padding:15px 20px 15px 20px;
+	margin: 0 -5px 0 -5px;
+	
+}
+
+/* 상품 목록 슬라이드 */
+
+#myCarousel > .carousel-inner{
+	width: 100%;
+	height: 300px;
+}
+
+#myCarousel > .item{
+	width: 100%;
+	height: 300px;
+}
+
+
+#myCarousel > .list_wrap{
+	width: 80%;
+	heigth: 220px;
+	margin: auto;
+}
+
+#myCarousel > div > div.item.active > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	/* background-image: url('/semiproject/Singapore/seoubokkem.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%; */
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel > div > div.item.active > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel > div > div.item.active > div > .pro_img span{
+	color: white;
+}
+#myCarousel > div > div.item.active > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel > div > div.item.active > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel > div > div.item.active{
+	width: 70%;
+	height: 200px;
+	margin: auto;
+}
+
+
+/*  */
+#myCarousel > div > div.item > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	background-image: url('/semiproject/Singapore/singapo_unibersher.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel > div > div.item > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel > div > div.item > div > .pro_img span{
+	color: white;
+}
+#myCarousel > div > div.item > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel > div > div.item > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel > div > div.item{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+}
+
+/* 인기 여행지 제목 */
+.favorite .favorite_des .favorite_header{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.favorite .favorite_des .favorite_header h3{
+	color: #888888;
+}
+
+
+
+
+/* 상품 목록 슬라이드 */
+
+#myCarousel_1 > .carousel-inner{
+	width: 100%;
+	height: 300px;
+}
+
+#myCarousel_1 > .item{
+	width: 100%;
+	height: 300px;
+}
+
+
+#myCarousel_1 > .list_wrap{
+	width: 80%;
+	heigth: 220px;
+	margin: auto;
+}
+
+#myCarousel_1 > div > div.item.active > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	background-image: url('/semiproject/image/osaka.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel_1 > div > div.item.active > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel_1 > div > div.item.active > div > .pro_img span{
+	color: white;
+}
+#myCarousel_1 > div > div.item.active > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel_1 > div > div.item.active > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel_1 > div > div.item.active{
+	width: 70%;
+	height: 200px;
+	margin: auto;
+}
+
+
+/*  */
+#myCarousel_1 > div > div.item > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	background-image: url('/semiproject/image/osaka.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel_1 > div > div.item > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel_1 > div > div.item > div > .pro_img span{
+	color: white;
+}
+#myCarousel_1 > div > div.item > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel_1 > div > div.item > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel_1 > div > div.item{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+}
+
+/* 인기 여행지 제목 */
+.activities .activities_des .activities_header{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.activities .activities_des .activities_header h3{
+	color: #888888;
+}
+
+
+
+
+/* 상품 목록 슬라이드 */
+
+#myCarousel_2 > .carousel-inner{
+	width: 100%;
+	height: 300px;
+}
+
+#myCarousel_2 > .item{
+	width: 100%;
+	height: 300px;
+}
+
+
+#myCarousel_2 > .list_wrap{
+	width: 80%;
+	heigth: 220px;
+	margin: auto;
+}
+
+#myCarousel_2 > div > div.item.active > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	background-image: url('/semiproject/image/osaka.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel_2 > div > div.item.active > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel_2 > div > div.item.active > div > .pro_img span{
+	color: white;
+}
+#myCarousel_2 > div > div.item.active > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel_2 > div > div.item.active > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel_2 > div > div.item.active{
+	width: 70%;
+	height: 200px;
+	margin: auto;
+}
+
+
+/*  */
+#myCarousel_2 > div > div.item > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	background-image: url('/semiproject/image/osaka.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel_2 > div > div.item > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel_2 > div > div.item > div > .pro_img span{
+	color: white;
+}
+#myCarousel_2 > div > div.item > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel_2 > div > div.item > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel_2 > div > div.item{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+}
+
+/* 인기 여행지 제목 */
+.atection .atection_des .atection_header{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.atection .atection_des .atection_header h3{
+	color: #888888;
+}
+
+
+
+
+
+
+/* 상품 목록 슬라이드 */
+
+#myCarousel_3 > .carousel-inner{
+	left:10%;
+	width: 100%;
+	height: 300px;
+}
+
+#myCarousel_3 > .item{
+	width: 100%;
+	height: 300px;
+}
+
+
+#myCarousel_3 > .list_wrap{
+	width: 80%;
+	heigth: 220px;
+	margin: auto;
+}
+
+#myCarousel_3 > div > div.item.active > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	background-image: url('/semiproject/image/osaka.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel_3 > div > div.item.active > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel_3 > div > div.item.active > div > .pro_img span{
+	color: white;
+}
+#myCarousel_3 > div > div.item.active > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel_3 > div > div.item.active > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel_3 > div > div.item.active{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+}
+
+
+/*  */
+#myCarousel_3 > div > div.item > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	background-image: url('/semiproject/image/osaka.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel_3 > div > div.item > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel_3 > div > div.item > div > .pro_img span{
+	color: white;
+}
+#myCarousel_3 > div > div.item > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel_3 > div > div.item > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel_3 > div > div.item{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+}
+
+/* 인기 여행지 제목 */
+.atection .atection_des .atection_header{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.atection .atection_des .atection_header h3{
+	color: #888888;
+}
+
+/* 상품 목록 슬라이드 */
+
+#myCarousel_4 > .carousel-inner{
+	left:10%;
+	width: 100%;
+	height: 300px;
+}
+
+#myCarousel_4 > .item{
+	width: 100%;
+	height: 300px;
+}
+
+
+#myCarousel_4 > .list_wrap{
+	width: 80%;
+	heigth: 220px;
+	margin: auto;
+}
+
+#myCarousel_4 > div > div.item.active > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	background-image: url('/semiproject/image/osaka.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel_4 > div > div.item.active > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel_4 > div > div.item.active > div > .pro_img span{
+	color: white;
+}
+#myCarousel_4 > div > div.item.active > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel_4 > div > div.item.active > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel_4 > div > div.item.active{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+}
+
+
+/*  */
+#myCarousel_4 > div > div.item > div > .pro_img{
+	width: 20%;
+	height: 300px;
+	background-image: url('/semiproject/image/osaka.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
+	float: left;
+	margin-left: 4%;
+	border: 1px solid #BFBFBF;
+}
+
+#myCarousel_4 > div > div.item > div > .pro_img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-top: -10px;
+}
+
+#myCarousel_4 > div > div.item > div > .pro_img span{
+	color: white;
+}
+#myCarousel_4 > div > div.item > div > .pro_img i{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#myCarousel_4 > div > div.item > div > .pro_img #blank{
+	width: 18%;
+	height: 120px;
+	display: block;
+}
+#myCarousel_4 > div > div.item{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+}
+
+/* 인기 여행지 제목 */
+.restaurant .restaurant_des .restaurant_header{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.restaurant .restaurant_des .restaurant_header h3{
+	color: #888888;
+}
+
+.city{
+	
+	margin-top: 60px;
+	
+}
+
+#mony{
+	position: relative;
+	left: 20%;
+}
+#back{
+	position: relative;
+	left: 40%;
+}
+#back_1{
+	position: relative;
+	left: 60%;
+}
+
+	
+	

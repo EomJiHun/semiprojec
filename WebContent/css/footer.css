@@ -1,0 +1,23 @@
+#footer_wrap{
+	width: 100%;
+	heigth: 400px;
+	background-color: #333333;
+	color: white;
+}
+
+#footer_content_wrap{
+	width: 50%;
+	height: 300px;
+	margin: auto;
+	line-height: 50px;
+}
+#footer_content_wrap p{
+	text-align: center;
+}
+
+#footer_content_wrap > p:nth-child(2) > a{
+	text-decoration: none !important;
+}
+#footer_content_wrap > p:nth-child(2) > a:hover{
+	color: green !important;
+}
